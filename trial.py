@@ -97,7 +97,7 @@ def get_places(lat, lon, place_type):
           '?location=%f,%f' \
           '&radius=5000' \
           '&type=%s' \
-          '&key=AIzaSyBTGGvXZjEEDGmDwshVqDINMxEpAiaMOA0' % (lat, lon, place_type)
+          '&key=AIzaSyDGsz9NVgoKqsw92zqZt_gIRsGpHQueNcM' % (lat, lon, place_type)
 
     print(url)
     places = json.loads(urlopen(url).read())
